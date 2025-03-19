@@ -1,0 +1,30 @@
+x= "x é = 10"
+print(x)
+
+a = input("x é maior que 5? (sim/não): ")
+if a == "sim":
+      resultado1 = True
+else:
+      resultado1 = False
+
+b = input("x é maior que 20? (sim/não): ")
+if b == "sim":
+      resultado2 = True
+else:
+      resultado2 = False
+
+c = input("x é >= 10? (sim/não): ")
+if c == "sim":
+      resultado3 = True
+else:
+      resultado3 = False
+
+print(resultado1)
+print(resultado2)
+print(resultado3)
+
+
+usuario1= int (input("me fale um numero: "))
+for i in range(usuario1+1):
+     print(i)
+
