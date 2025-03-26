@@ -1,9 +1,21 @@
 import random
-
-
-print("Escolha: pedra, papel ou tesoura")
+print("")
+print("O JOGO")
+print("")
+print("pedra, papel e tesoura")
+print("")
+print("------------------------")
+print("")
+print("escolha uma opção entre")
+print("")
+print("-pedra")
+print("-papel")
+print("-tesoura")
+print("")
 
 entrada = input("Digite sua escolha: ").strip().lower()
+
+print("")
 
 escolhas = ["pedra", "papel", "tesoura"]
 
